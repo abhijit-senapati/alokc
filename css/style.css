@@ -57,7 +57,7 @@ a {
  }
  .footer ul li a {
     font-weight: 600;
-    color: #727272;}
+    color: #1d1414;}
     .footer ul {
         list-style-type: none;
     }
@@ -73,7 +73,8 @@ background-color: green !important;
     ul li a {
         font-weight: 600;
         color: #727272;
-        font-size: large;
+        font-size:medium;
+    
     }
     /* image hover */
     .hovereffect {
