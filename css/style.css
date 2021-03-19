@@ -1,7 +1,7 @@
     .smoicons a i {
-    font-size: 15px;
-    margin-left: 16px;
-    -webkit-text-stroke-color: #555;
+    font-size: 20px;
+    margin-left: 20px;
+    -webkit-text-stroke-color: rgb(29, 27, 27);
 }
 
 .fab {
@@ -9,11 +9,11 @@
 }
 i {
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color:#555;
+    -webkit-text-stroke-color:rgb(49, 41, 41);
     color: transparent!important;
 }
 a {
-    color: #0e75c1;
+    color: rgb(37, 32, 32);
     font-family: 'Roboto-Light';
     text-decoration: none;
     outline: none;
@@ -53,27 +53,41 @@ a {
     
  }
  .dropdown-item:hover{
-     background-color:green;
+     background-color:#00A4A6;
     color:white;
  }
  .footer ul li a {
     font-weight: 600;
-    color: #1d1414;}
+    color: white}
     .footer ul {
         list-style-type: none;
     }
     ul{
         padding:1px;
     }
-    .bg-teal{
+  
+    .text-teal{
+        color:#00A4A6!important;
+    }
+    .bg-teal  {
 background-color:#00A4A6!important;
+    }
+    .btn-outline-success {
+        color:black;
+        background-color:#fff;;
+        border-color:#fff;; /*set the color you want here*/
+    }
+    .btn-outline-success:hover, .btn-outline-success:focus, .btn-outline-success:active, .btn-outline-success.active, .open>.dropdown-toggle.btn-outline-success {
+        color: #fff;
+        background-color: #00A4A6;
+        border-color: #00A4A6 /*set the color you want here*/
     }
     ul {
         list-style-type: none;
     }
     ul li a {
         font-weight: 600;
-        color: #727272;
+        color: #271f1f;
         font-size:medium;
     
     }
