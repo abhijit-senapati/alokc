@@ -1,10 +1,11 @@
-  .smoicons a i {
+    .smoicons a i {
     font-size: 15px;
     margin-left: 16px;
     -webkit-text-stroke-color: #555;
 }
+
 .fab {
-    font-family: 'Font Awesome 5 Brands';
+    font-family: "Font Awesome 5 Brands";
 }
 i {
     -webkit-text-stroke-width: 1px;
@@ -65,7 +66,7 @@ a {
         padding:1px;
     }
     .bg-teal{
-background-color: green !important;
+background-color:#00A4A6!important;
     }
     ul {
         list-style-type: none;
@@ -95,7 +96,7 @@ background-color: green !important;
         top:0;
         left:0;
         opacity:0;
-        background-color:rgba(0,0,0,0.5);
+        background-color:rgba(0, 0, 0, 0.247);
         -webkit-transition:all .4s ease-in-out;
         transition:all .4s ease-in-out
         }
