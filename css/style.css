@@ -3,7 +3,7 @@
 }
 
 .bg-cus{
-background-image: url(image/o2.jpg);
+background-image: url(../image/o2.jpg);
 background-size: cover;
 background-attachment: fixed;
 padding: 40px 0 25px;
