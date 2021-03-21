@@ -20,8 +20,6 @@
     position: absolute;
     content: " ";
     z-index: -1;
-    top: -15px;
-    left: -15px;
     opacity: 0;
     border:50%;
     border:2px solid #00A4A6;
@@ -56,8 +54,8 @@
     }
 }
 .phone-call{
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
     right: 25px;
     top:45px;
     background: #00A4A6;
@@ -68,8 +66,8 @@
     border-radius: 50%;
     z-index: 99;
     display: inline-block;
-    line-height: 65px;
-}
+    line-height: 41px;
+   }
 
 .bg-cus{
 background-image: url(../image/o2.jpg);
