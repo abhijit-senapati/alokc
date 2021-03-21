@@ -1,6 +1,75 @@
 .font{
     font-family:monospace;
 }
+.float{
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 25px;
+    right: 40px;
+    background-color: #00A4A6;
+    color: rgb(255, 249, 249);
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+}
+.phone-call:before, 
+.phone-call:after {
+    position: absolute;
+    content: " ";
+    z-index: -1;
+    top: -15px;
+    left: -15px;
+    opacity: 0;
+    border:50%;
+    border:2px solid #00A4A6;
+    left:-20px;
+    right:-20px;
+    top:-20px;
+    bottom:-20px;
+    border-radius: 50%;
+}
+.phone-call:before{
+    animation: pulse 2s linear infinite;
+}
+.phone-call:after{
+    animation: pulse 2s 1s linear infinite;
+}
+@keyframes pulse{
+    0%{
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    50%{
+        transform: scale(0.5);
+        opacity: 1;
+    }
+    100%{
+        transform: scale(2.5);
+        opacity: 0;
+    }
+    100%{
+        transform: scale(1.2);
+        opacity: 0;
+    }
+}
+.phone-call{
+    width: 60px;
+    height: 60px;
+    right: 25px;
+    top:45px;
+    background: #00A4A6;
+    position: fixed;
+    text-align: center;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 50%;
+    z-index: 99;
+    display: inline-block;
+    line-height: 65px;
+}
 
 .bg-cus{
 background-image: url(../image/o2.jpg);
