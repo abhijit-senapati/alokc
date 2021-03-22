@@ -94,9 +94,10 @@ padding: 40px 0 25px;
     text-decoration: none;
    }
    .smoicons a i {
-    font-size: 20px;
+    font-size: 30px;
     margin-left: 20px;
-    -webkit-text-stroke-color: rgb(29, 27, 27);
+    color: white;
+    /* -webkit-text-stroke-color: rgb(29, 27, 27); */
 }
 .p{
     padding-left: 50px;
@@ -106,13 +107,17 @@ padding: 40px 0 25px;
 .fab {
     font-family: "Font Awesome 5 Brands";
 }
-i {
-    -webkit-text-stroke-width: 1px;
+.card-body i {
+    color: rgb(245, 240, 240);
+    /* -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color:rgb(49, 41, 41);
-    color: transparent!important;
+    color: transparent!important; */
+}
+.phone-call i {
+    color:black;
 }
 a {
-    color: rgb(14, 13, 13);
+    color: #00A4A6;
     font-family: 'Roboto-Light';
     text-decoration: none;
     outline: none;
@@ -124,8 +129,8 @@ a {
     font-weight: 900;
 }
 .h i {
-    -webkit-text-stroke-color:#555;
-    font-size: 16px;
+    -webkit-text-stroke-color:rgb(36, 194, 141);
+    /* font-size: 16px; */
     margin-right: 12px;
 }
 .inner img{
@@ -165,6 +170,9 @@ a {
    
     .text-teal{
         color:#00A4A6!important;
+    }
+    .text-w{
+        color: white, i !important;;
     }
     .bg-teal  {
 background-color:#00A4A6!important;
