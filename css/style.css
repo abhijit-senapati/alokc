@@ -8,7 +8,7 @@
 .font{
     font-family:monospace;
 }
-.float{
+/* .float{
     position: fixed;
     width: 60px;
     height: 60px;
@@ -21,7 +21,7 @@
     font-size: 30px;
     box-shadow: 2px 2px 3px #999;
     z-index: 100;
-}
+} */
 .phone-call:before, 
 .phone-call:after {
     position: absolute;
@@ -87,7 +87,7 @@ padding: 40px 0 25px;
     background-color:#00A4A6;
     border-color:black; 
 }
-   #backtop{
+   /* #backtop{
     scroll-behavior: smooth;
     display:inline;
     position: fixed;
@@ -105,7 +105,7 @@ padding: 40px 0 25px;
     letter-spacing: 1px;
     color: #fff;
     text-decoration: none;
-   }
+   } */
    .smoicons a i {
     font-size: 30px;
     margin-left: 20px;
