@@ -75,9 +75,25 @@
     display: inline-block;
     line-height: 41px;
       }
+      .phone-call-call{
+        width: 40px;
+        height: 40px;
+        background:#00A4A6;
+        text-align: center;
+        cursor: pointer;
+        border-radius: 50%;
+        z-index: 99;
+        display: inline-block;
+        line-height: 41px;
+          }
+          .phone-call-call a i{
+              color:#fff;
+          }
+     
+      
 
 .bg-cus{
-background-image: url(../image/o2.jpg);
+background-image: url(../image/jt.jpg);
 background-size: cover;
 background-attachment: fixed;
 padding: 40px 0 25px;
@@ -86,6 +102,9 @@ padding: 40px 0 25px;
     color:whitesmoke;
     background-color:#00A4A6;
     border-color:black; 
+}
+.btn-success,.btn-success:hover{
+    background-color:#00A4A6; ;
 }
    /* #backtop{
     scroll-behavior: smooth;
@@ -135,11 +154,17 @@ padding: 40px 0 25px;
     background-color: transparent;
     -webkit-text-decoration-skip: objects;
 }
+.bg-cus p a, .bg-cus p{
+    color: #fff;
+    font-size:;
+}
+
 a {
     color: #00A4A6;
     font-family: 'Roboto-Light';
     text-decoration: none;
     outline: none;
+    font-size:large;
     background-color: transparent;
     -webkit-text-decoration-skip: objects;
 }
@@ -149,8 +174,7 @@ a {
 }
 .h i {
     -webkit-text-stroke-color:rgb(36, 194, 141);
-    /* font-size: 16px; */
-    margin-right: 12px;
+     margin-right: 12px;
 }
 .inner img{
     transition: all 1.5s ease;
@@ -161,11 +185,6 @@ a {
 .inner:hover img{
     transform: scale(1.5);
 }
-/* .card:hover{
-    -webkit-box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
-    -moz-box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
-    box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
-} */
 .p{
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -182,8 +201,8 @@ a {
  .footer ul li a {
     font-weight: 600;
     color: rgb(252, 248, 248);
-
 }
+
 .footer ul li a:hover{
     color: black;
 }
