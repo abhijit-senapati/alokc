@@ -75,23 +75,25 @@
     display: inline-block;
     line-height: 41px;
       }
-      .phone-call-call{
-        width: 40px;
-        height: 40px;
-        background:#00A4A6;
-        text-align: center;
-        cursor: pointer;
-        border-radius: 50%;
-        z-index: 99;
-        display: inline-block;
-        line-height: 41px;
-          }
-          .phone-call-call a i{
-              color:#fff;
-          }
-     
-      
-
+ .phone-call-call{
+  width: 40px;
+  height: 40px;
+  background:#00A4A6;
+  text-align: center;
+ cursor: pointer;
+ border-radius: 50%;
+ z-index: 99;
+ display: inline-block;
+ line-height: 41px;
+ }
+ .phone-call-call a i{
+   color:#fff;
+ }
+ /* .featurette-cus{
+     background-image: url(../image/sky.png);
+     background-repeat: no-repeat;
+     margin-bottom: 0;
+ } */
 .bg-cus{
 background-image: url(../image/jt.jpg);
 background-size: cover;
