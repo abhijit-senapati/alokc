@@ -1,4 +1,6 @@
-
+.bg-f{
+    background-image: url(../image/bg.png);
+}
 .title{
  color:gray;
  font-family: "Iskra";
