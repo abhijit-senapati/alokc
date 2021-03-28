@@ -1,4 +1,10 @@
 
+.title{
+ color:gray;
+ font-family: "Iskra";
+ font-style: italic;
+}
+
 .margin{
 margin-right: 5rem;
 }
