@@ -1,7 +1,26 @@
 .bg-f{
-    background-image: url(../image/bg.png);
+    background-color: rgb(225, 245, 225);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
-.title{
+.b{
+    padding: 43.5px 40px;
+    padding-top: 43.5px;
+    padding-right: 40px;
+    padding-bottom: 43.5px;
+    padding-left: 40px;
+    text-align: center;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+   }
+  
+   .title{
  color:gray;
  font-family: "Iskra";
  font-style: italic;
@@ -114,8 +133,7 @@ padding: 40px 0 25px;
 .btn-outline-success-view{
     color:whitesmoke;
     background-color:#00A4A6;
-    border-color:black; 
-}
+    }
 .btn-success,.btn-success:hover{
     background-color:#00A4A6; ;
 }
