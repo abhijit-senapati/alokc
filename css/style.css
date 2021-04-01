@@ -5,12 +5,7 @@ padding: 0;
 .con i{
     color: #fff;
 }
-.bg-f{
-    background-color: rgb(225, 245, 225);
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-}
+
 .b{
     padding: 43.5px 40px;
     padding-top: 43.5px;
@@ -66,7 +61,7 @@ margin-right: 5rem;
     z-index: -1;
     opacity: 0;
     border:50%;
-    border:2px solid #00A4A6;
+    border:2px solid #34f73e;
     left:-20px;
     right:-20px;
     top:-20px;
@@ -102,7 +97,7 @@ margin-right: 5rem;
     height: 40px;
     right: 40px;
     top:50px;
-    background: #00A4A6;
+    background: #34f73e;
     position: fixed;
     text-align: center;
     color: #ffffff;
@@ -194,6 +189,15 @@ padding: 40px 0 25px;
 }
 .bg-cus p a, .bg-cus p{
     color: #fff;
+}
+.h a {
+    color: #f74008e8;
+    font-family: 'Roboto-Light';
+    text-decoration: none;
+    outline: none;
+    font-size:large;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
 }
 
 a {
