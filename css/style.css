@@ -1,6 +1,27 @@
-*{
+body{
 margin: 0;
 padding: 0;
+}
+.colo{
+    border: 5px solid #00A4A6;;
+}
+.leader{
+    font-family: robot;
+    
+}
+.pop{ font-family: Robot;
+    color:gray;
+}
+.intro{
+    font-family: Robot;
+    color:#00A4A6;
+    text-align: center;
+}
+.para{
+
+    margin-left:40px;
+    margin-right: 40px;
+    font-family:alegrya sans-serif;
 }
 .con i{
     color: #fff;
